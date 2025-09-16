@@ -10972,7 +10972,7 @@ section.resume-section .resume-section-content {
 
 /* Default desktop (sidebar view) */
 .img-profile {
-  width: 250px;   /* was 200px */
+  width: 400px;   /* was 200px */
   max-width: 100%;
 }
 
