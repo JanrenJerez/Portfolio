@@ -10962,10 +10962,18 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-/* Default size (desktop) */
+/* Default desktop (sidebar view) */
 .img-profile {
   width: 200px;
   max-width: 100%;
+}
+
+.brand-name {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 /* Tablet screens */
@@ -10973,11 +10981,17 @@ section.resume-section .resume-section-content {
   .img-profile {
     width: 150px;
   }
+  .brand-name {
+    font-size: 1.25rem;
+  }
 }
 
 /* Mobile screens */
 @media (max-width: 576px) {
   .img-profile {
     width: 100px;
+  }
+  .brand-name {
+    font-size: 1rem;
   }
 }
