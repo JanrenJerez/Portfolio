@@ -10995,3 +10995,30 @@ section.resume-section .resume-section-content {
     font-size: 1rem;
   }
 }
+
+/* Keep the navbar brand compact */
+.navbar-brand {
+  display: flex;
+  flex-direction: column; /* stack name + image */
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem; /* less padding so it doesn’t block */
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .navbar-brand {
+    flex-direction: row;  /* name + image side by side */
+    gap: 0.5rem;          /* spacing between them */
+  }
+
+  .img-profile {
+    width: 50px;          /* smaller for mobile navbar */
+    height: 50px;
+  }
+
+  .brand-name {
+    font-size: 1rem;
+    margin-bottom: 0;     /* no bottom margin when side by side */
+  }
+}
