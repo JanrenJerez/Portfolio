@@ -11008,8 +11008,8 @@ section.resume-section .resume-section-content {
   }
 
   .img-profile {
-    width: 150px;          /* smaller for mobile navbar */
-    height: 150px;
+    width: 120px;          /* smaller for mobile navbar */
+    height: 120px;
   }
 
   .brand-name {
