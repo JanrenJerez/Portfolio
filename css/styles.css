@@ -10975,3 +10975,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.custom-img {
+  max-width: 768px; 
+}
