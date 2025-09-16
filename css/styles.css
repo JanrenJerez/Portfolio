@@ -10962,28 +10962,22 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
+/* Default size (desktop) */
+.img-profile {
+  width: 200px;
+  max-width: 100%;
+}
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  .img-profile {
+    width: 150px;
   }
 }
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-}
 
-
-.custom-img {
-  width: 80%;
-  max-width: 350px;
-}
-
-@media (max-width: 200px) {
-  .custom-img {
-    max-width: 150px;
+/* Mobile screens */
+@media (max-width: 576px) {
+  .img-profile {
+    width: 100px;
   }
 }
