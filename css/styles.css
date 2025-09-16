@@ -10989,7 +10989,7 @@ section.resume-section .resume-section-content {
 /* Mobile screens */
 @media (max-width: 576px) {
   .img-profile {
-    width: 100px;
+    width: 200px;
   }
   .brand-name {
     font-size: 1rem;
