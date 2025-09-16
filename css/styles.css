@@ -10983,10 +10983,9 @@ section.resume-section .resume-section-content {
   }
 }
 
-/* Mobile screens */
 @media (max-width: 576px) {
-  .img-profile {
-    width: 300px;  /* was 100px */
+  #sideNav {
+    position: static;
   }
 }
 
