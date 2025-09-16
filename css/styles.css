@@ -10982,7 +10982,7 @@ section.resume-section .resume-section-content {
   max-width: 350px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 200px) {
   .custom-img {
     max-width: 150px;
   }
