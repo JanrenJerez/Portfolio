@@ -10976,6 +10976,14 @@ section.resume-section .resume-section-content {
   }
 }
 
+
 .custom-img {
-  max-width: 350px; 
+  width: 100%;
+  max-width: 350px;
+}
+
+@media (max-width: 767.98px) {
+  .custom-img {
+    max-width: 150px;
+  }
 }
